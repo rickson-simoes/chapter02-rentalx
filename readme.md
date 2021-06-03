@@ -1,4 +1,4 @@
-<h1>API - Typescript</h1>
+<h1>API - Aluguel de Carros</h1>
 
 [![Package][Express-image]][Express-url] 
 [![Technology][node-image]][node-url] 
@@ -14,4 +14,22 @@
 [typescript-url]: https://www.typescriptlang.org
 [typescript-image]: https://img.shields.io/badge/Typescript-blue?style=for-the-badge&logo=TypeScript&logoColor=white
 
----------
+---
+## Instruções para uso:
+
+1º - yarn install
+
+2º - yarn dev
+
+---
+---
+
+## Rotas
+ 
+### POST `/categories`
+*Criação de categoria.*
+A rota deve receber `name` e `description` pelo corpo da requisição.
+
+### GET `/categories`
+*Verifica as categorias*
+A rota exibe as categorias.
