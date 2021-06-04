@@ -32,4 +32,4 @@ A rota deve receber `name` e `description` pelo corpo da requisição.
 
 ### GET `/categories`
 *Verifica as categorias*
-A rota exibe as categorias
+A rota exibe as categorias.
