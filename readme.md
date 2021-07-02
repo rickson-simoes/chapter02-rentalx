@@ -22,14 +22,25 @@
 2º - yarn dev
 
 ---
----
+# Rotas
 
-## Rotas
- 
+## • Categorias
 ### POST `/categories`
 *Criação de categoria.*
 A rota deve receber `name` e `description` pelo corpo da requisição.
+ 
+### POST `/categories/import`
+*Importar arquivo CSV de categorias com nome e especificação.*
+``Ex.: Sedan, carro confortavel e 4 portas``
+Envio de arquivo multipart/form, com nome 'file'.
 
 ### GET `/categories`
 *Verifica as categorias*
 A rota exibe as categorias
+
+## • Especificações
+
+### POST `/specifications`
+*Criação de especificação.*
+A rota deve receber `name` e `description` pelo corpo da requisição.
+
